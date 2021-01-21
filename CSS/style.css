@@ -1,0 +1,110 @@
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
+body{
+	
+}
+header{
+	height: 120px;
+	
+}
+.metroblog{	
+	border-bottom-width: 1px;
+    border-bottom-style: solid;;
+	border-color: #999999;
+	
+}
+.metabloc-content{
+	padding-top: 42px;
+	padding-left: 251px;
+	font-family: "Trebuchet MS";
+	width: 235px;
+	display: inline-block;
+}
+img{
+	margin-left: -16px;
+	padding-top: 2px;
+}
+
+.metrobloc-text {
+	font-size: 51px;
+	line-height: 26.86px;
+	width: 235px;
+}	
+.metro {
+	color: #999999;
+}
+.metro:after{
+	content:'';
+	height: 25px;
+	width: 25px;
+	border-radius: 25px;
+	background-color: #66cc33; 
+}
+
+.blog {
+	color: #313131;
+	margin-left: -12px;
+	
+}
+.navigation {
+	font-family: "Segoe WP - Light";
+	font-size: 23px;
+	font-weight: 300;	
+	display: inline-block;
+	padding-left: 551px;
+	padding-top: 45px;
+	position: absolute;
+	
+}
+.navigation a{
+	color: #959695;
+	padding: 9px 20px;
+	margin-left: 35px;
+	background-color: #ffffff;
+	transition: background-color 1s;
+
+}
+.navigation a:nth-child(1){
+	margin-left: 0px;
+}
+
+
+.navigation a:hover{
+	background-color: #373737;
+	color: #fff;
+}
+
+
+
